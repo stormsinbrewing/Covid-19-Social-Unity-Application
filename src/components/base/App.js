@@ -13,6 +13,7 @@ import FullScreenLayout from './FullScreenLayout';
 // Statistics
 const DashboardPage = loadable(() => import('components/page/DashboardPage'));
 const RiskRankingPage = loadable(() => import('components/page/RiskRankingPage'))
+const SocialUnityPage = loadable(() => import('components/page/SocialUnityPage'))
 // Not found
 const NotFoundPage = loadable(() => import('components/page/NotFoundPage'));
 
@@ -82,6 +83,7 @@ class App extends React.Component {
                                     {/* Statistics */}
                                     <Route path='/statistics/dashboard' component={DashboardPage} />
                                     <Route path='/statistics/risk_ranking' component={RiskRankingPage} />
+                                    <Route path='/statistics/social_unity' component={SocialUnityPage} />
                                     {/* Not found */}
                                     <Route path='*' component={NotFoundPage} />
                                 </Switch>

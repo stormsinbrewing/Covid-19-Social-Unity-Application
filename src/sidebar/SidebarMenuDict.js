@@ -6,10 +6,7 @@ import SvgIcon from '@material-ui/core/SvgIcon';
 
 import Dashboard from '@material-ui/icons/Dashboard';
 import Error from '@material-ui/icons/Error';
-// import ViewList from '@material-ui/icons/ViewList';
-// import WbSunny from '@material-ui/icons/WbSunny';
-// import Map from '@material-ui/icons/Map';
-// import Layers from '@material-ui/icons/Layers';
+
 
 // https://material-ui.com/components/icons/#svgicon
 function StickyBoardIcon(props) {
@@ -38,6 +35,12 @@ const SidebarMenuDict = {
         icon: (<Error />),
         url: '/statistics/risk_ranking',
         value: 102,
+        need_permission: false
+    } , {
+        title: 'Social Unity Cause',
+        icon: (<Dashboard />),
+        url: '/statistics/social_unity',
+        value: 103,
         need_permission: false
     }],
 
