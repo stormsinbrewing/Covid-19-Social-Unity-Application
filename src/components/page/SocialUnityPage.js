@@ -1,6 +1,8 @@
-// src/components/page/SUA.js
-
 import React from 'react'
+import discord from './discord.png'
+import telegram from './telegram.png'
+import form from './form.png'
+import poster from './poster.png'
 
 export default class SocialUnityPage extends React.Component {
     render () {
@@ -8,13 +10,15 @@ export default class SocialUnityPage extends React.Component {
             <main>
                 <div className="main-content">
                     <div className="social-unity">
-                        <h2>Social Unity Cause</h2>
+    <p align='center'> <img height="400" src={poster} /> </p>
+                        <p align='center'> Take Part in the Social Unity Cause </p>
                         
-                        <a href="https://discord.gg/fdbUbUrRK7"><h3>Join our Discord Channel</h3></a>
-                       
-                        <a href="https://forms.gle/bkBCb9xBzbManWyL7"><h3>Register for the Social Unity Cause</h3></a>
-               
-                        <a href="https://t.me/joinchat/Pmlf6hfeuU0VPTVAYlcqQg"><h3>Join our Telegram Channel</h3></a>
+                        <p align='center'>
+<code><a href="https://forms.gle/bkBCb9xBzbManWyL7"><figure><img height="100" width="140" src={form}/><figcaption>Register Yourself</figcaption></figure></a></code>
+<code><a href="https://discord.gg/fdbUbUrRK7">
+<figure><img height="100" width="140" src={discord}/><figcaption>Discord</figcaption></figure></a></code>
+<code><a href="https://t.me/joinchat/Pmlf6hfeuU0VPTVAYlcqQg"><figure><img height="100" width="140" src={telegram}/><figcaption>Telegram</figcaption></figure></a></code>
+</p>
                     </div>
                 </div>
             </main>
