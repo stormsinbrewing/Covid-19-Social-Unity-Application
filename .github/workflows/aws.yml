@@ -1,7 +1,7 @@
 name: CI/CD for AWS Cloud
 
 on:
-  pull_request
+#  pull_request
 #  schedule:
 #    - cron:  '5 0 * * *' # UTC 00:05 AM - 5 minutes after DB update daily
   
