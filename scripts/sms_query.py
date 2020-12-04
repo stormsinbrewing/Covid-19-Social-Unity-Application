@@ -3,7 +3,7 @@ from twilio.rest import Client
 from pymongo import MongoClient
 
 account_sid = 'ACa1eb3914142a6680c907b530e0c80fb5' 
-auth_token = '5b276b5962b72a2a916deffb1465266b' 
+auth_token = ${{ secrets.TWILIO_KEY }}
 client = Client(account_sid, auth_token)
 cluster = MongoClient("mongodb+srv://Admin:administrator@cluster0.mrmt6.mongodb.net/googlesheetsdb?retryWrites=true&w=majority")
 
