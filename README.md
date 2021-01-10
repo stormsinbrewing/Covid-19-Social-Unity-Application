@@ -37,6 +37,10 @@ Please adhere to the contribution [guidelines](docs/CONTRIBUTING.md).
 
 ![POW](img/PlanofWork.png)
 
+## Hosted project Link
+
+https://socialunity.herokuapp.com/statistics/dashboard
+
 ## Code of Conduct
 
 [Code of Conduct](docs/CODE_OF_CONDUCT.md)
